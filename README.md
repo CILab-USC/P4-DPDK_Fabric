@@ -4,18 +4,9 @@
    
 <body class="ht_kb-template-default single single-ht_kb postid-5016 single-format-standard wp-embed-responsive ht-kb" itemscope="" itemtype="https://schema.org/WebPage" data-spy="scroll" data-offset="30" data-target="#navtoc" data-new-gr-c-s-check-loaded="14.1196.0" data-gr-ext-installed="">
 	
-<p>Aside from virtual software NICs (Network Interface Cards), the Data Plane Development Kit (DPDK) is supported by many physical hardware NICs, 
-each contributing to performance gains in network applications. One of the major advantages of DPDK is its capacity to dramatically enhance network throughput 
-and processing efficiency by bypassing the OS kernel. To fully observe these performance improvements, it is essential to use DPDK with real hardware NICs rather 
-than virtualized or emulated solutions. </p>
+<p>Network packet processing faces significant performance challenges due to kernel overheads. These issues have become more pronounced with the rapid growth of network traffic, leading to performance limitations in packet processing. To address these challenges, the Data Plane Development Kit (DPDK) was developed. DPDK bypasses the kernel and operates directly in user space, offering significant improvements in performance and latency for packet processing tasks. However, DPDK's steep learning curve presents a barrier to entry for developers and network administrators. In recent years, P4 has emerged as a language specifically designed for expressing packet processing data paths. Building on this development, P4-DPDK has been introduced as a new technology that bridges P4 and DPDK. It allows developers to create P4 code which is then translated into a DPDK pipeline, combining the expressiveness of P4 with the performance benefits of DPDK. </p>
 
-<p>SmartNICs are advanced network cards that integrate processing capabilities directly into the NIC hardware and generally support DPDK. 
-They often come with embedded CPUs and domain-specific hardware (FPGA or ASIC) that provide hardware acceleration and offload various network processing tasks 
-from the host CPU. When using DPDK with SmartNICs, these offloading capabilities can be leveraged to handle tasks like packet filtering, 
-traffic management, and encryption directly on the NIC.</p>
-
-<p>Although DPDK is based on C programming, writing in P4 is generally considered more straightforward. 
-The Cyberinfrastructure Lab (CILab) at the University of South Carolina (USC) has developed step-by-step hands-on lab experiments on DPDK using the P4 language. 
+<p>The Cyberinfrastructure Lab (CILab) at the University of South Carolina (USC) has developed step-by-step hands-on lab experiments on DPDK using the P4 language. 
 Topics include fundamentals of P4-DPDK, P4 building blocks in the PNA architecture, parser implementation in the data plane, populating match-action tables, and others. 
 The learner will acquire expertise to create, test, and deploy P4-DPDK applications on custom topologies in FABRIC.</p>
 
