@@ -1,0 +1,19 @@
+; Generate pipeline code & build shared object
+pipeline codegen /home/ubuntu/lab4.spec /tmp/lab4.c
+pipeline libbuild /tmp/lab4.c /tmp/lab4.so
+
+; List DPDK devices
+mempool MEMPOOL0 meta 0 pkt 9128 pool 32K cache 256 numa 0
+ethdev net_tap0 rxq 1 128 MEMPOOL0 txq 1 512 promiscuous on 
+ethdev net_tap1 rxq 1 128 MEMPOOL0 txq 1 512 promiscuous on 
+
+; List pipelines
+pipeline PIPELINE0 build lib /tmp/lab4.so io /home/ubuntu/ethdev.io numa 0
+
+; Load rule to the match action table
+pipeline PIPELINE0 table forwarding add /home/ubuntu/rules.txt
+pipeline PIPELINE0 commit
+
+; Map pipelines to CPU threads
+pipeline PIPELINE0 enable thread 1
+

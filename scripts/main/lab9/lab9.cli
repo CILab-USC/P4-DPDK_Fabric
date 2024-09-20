@@ -1,0 +1,9 @@
+; Pipeline code generation & shared object library build.
+
+; List of DPDK devices.
+
+; List DPDK ethernet devices
+
+; List of pipelines.
+
+; Pipelines-to-threads mapping.
