@@ -55,8 +55,4 @@ The learner will acquire expertise to create, test, and deploy P4-DPDK applicati
 
 <figure class="wp-block-image size-full is-resized"><img decoding="async" src="https://learn.fabric-testbed.net/wp-content/uploads/2023/08/usc-logo.png" alt="" class="wp-image-5021" style="width:311px;height:81px" width="311" height="81" srcset="https://learn.fabric-testbed.net/wp-content/uploads/2023/08/usc-logo.png 486w, https://learn.fabric-testbed.net/wp-content/uploads/2023/08/usc-logo-300x78.png 300w, https://learn.fabric-testbed.net/wp-content/uploads/2023/08/usc-logo-50x13.png 50w, https://learn.fabric-testbed.net/wp-content/uploads/2023/08/usc-logo-60x16.png 60w, https://learn.fabric-testbed.net/wp-content/uploads/2023/08/usc-logo-100x26.png 100w" sizes="(max-width: 311px) 100vw, 311px"></figure>
 
-
-
-<figure class="wp-block-image size-full is-resized"><img decoding="async" src="https://learn.fabric-testbed.net/wp-content/uploads/2023/08/onr-logo.png" alt="" class="wp-image-5020" style="width:229px;height:110px" width="229" height="110" srcset="https://learn.fabric-testbed.net/wp-content/uploads/2023/08/onr-logo.png 254w, https://learn.fabric-testbed.net/wp-content/uploads/2023/08/onr-logo-50x24.png 50w, https://learn.fabric-testbed.net/wp-content/uploads/2023/08/onr-logo-60x29.png 60w, https://learn.fabric-testbed.net/wp-content/uploads/2023/08/onr-logo-100x48.png 100w" sizes="(max-width: 229px) 100vw, 229px"></figure>
-
 			
