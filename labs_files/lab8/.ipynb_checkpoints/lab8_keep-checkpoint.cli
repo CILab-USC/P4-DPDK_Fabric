@@ -1,9 +1,0 @@
-; Generate pipeline code & build shared object
-
-; List DPDK devices
-
-; List DPDK ethernet devices
-
-; List pipelines
-
-; Map pipelines to CPU threads
